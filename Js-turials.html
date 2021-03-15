@@ -1,0 +1,32 @@
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Course html">
+    <title>Testing</title>
+    <link href="fileCss.css" rel="styleSheet" media="all">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" id="header">
+            <div id="totalOfImg" class="totalOfImg"></div>
+            <img id="img" src="images/bg1.jpg" /> <!-- class="activeImg" -->
+            <img src="images/bg2.jpg" />
+            <img src="images/bg3.jpg" />
+
+            <img src="images/bg4.jpg" />
+            <img src="images/bg5.jpg" />
+
+        </div>
+        <div class="nav">
+            <span id="pre" class="pre" onclick="previouseImgFunction()">previouse</span>
+            <span id="num" class="num">
+            </span>
+            <span id="next" class="next" onclick="NextImgFunction()">next</span>
+        </div>
+    </div>
+    <script src="fileJs.js"></script>
+</body>
+
+</html>
